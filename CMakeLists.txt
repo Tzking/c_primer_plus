@@ -1,8 +1,8 @@
 project(demo CXX)
 
 # 设置目录
-set(SRC_DIR "ch13")
+set(SRC_DIR "ch14")
 add_executable(${PROJECT_NAME} 
-    ${SRC_DIR}/usedma.cpp 
-    ${SRC_DIR}/dma.hpp
-    ${SRC_DIR}/dma.cpp )
+    ${SRC_DIR}/usestuc.cpp 
+    ${SRC_DIR}/student.hpp
+    ${SRC_DIR}/student.cpp )
