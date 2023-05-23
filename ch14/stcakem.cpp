@@ -14,7 +14,7 @@ int main() {
     char c;
     std::string po;
     cout << "Please enter A to add a purchase order, \n"
-        << "P to process a PO, or Q to quit.\n";
+         << "P to process a PO, or Q to quit.\n";
     while (cin >> c && std::toupper(c) != 'Q') {
         while (cin.get() != '\n')
             continue;
@@ -46,7 +46,7 @@ int main() {
                 break;
         }
         cout << "Please enter A to add a purchase order.\n"
-            << "P to process a PO, or Q to quit.\n";
+             << "P to process a PO, or Q to quit.\n";
     }
     cout << "Done.\n";
     return 0;
