@@ -82,4 +82,4 @@ bool Stack<Type>::pop(Type &item) {
 }
 
 
-#endif; //DEMO_STCKTP_H
+#endif //DEMO_STCKTP_H
