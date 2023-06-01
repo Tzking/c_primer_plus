@@ -7,7 +7,7 @@
 
 struct Review {
     std::string title;
-    int rating;
+    int rating{};
 };
 
 bool fillReview(Review &review) {
